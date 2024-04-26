@@ -4,7 +4,7 @@
 
 ## Description
 
-In this article, I will use Python3 and sugar-toolkit-gkt3 to create a new "activity" which works on the XO.
+In this article, I will use Python3 and sugar-toolkit-gkt3 to create a new "activity".
 
 I found sugar iso based on Fedora [Fedora Sugar on a Stick Spin 40](https://fedoraproject.org/spins/soas/download). However, Sugar could also be used on other Linux distributions (Debian, Fedora, Mandriva, ...).
 
