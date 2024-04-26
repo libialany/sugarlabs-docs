@@ -1,0 +1,7 @@
+[Activity]
+name = Hello Sugar Labs
+activity_version = 2
+bundle_id = org.sugarlabs.HelloSugarLabs
+icon = activity-icon
+exec = sugar-activity3 activity.HelloSugarLabs
+license = GPLv3+
