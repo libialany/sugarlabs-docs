@@ -29,7 +29,7 @@ Install sucrose on Debian: I hope this repo help you. [Sugar on Debian](https://
 
 **gamearea.py**
 
-I only create a window with a color background, it's a second script.
+I only create a window with a color background, This is a secondary script, and I don't like having all my code in one script..
 
 ![second script](./imgs/gamearea.png)
 
@@ -40,7 +40,7 @@ It is good practice to modularize your code, this is the main script.
 
 ![main script](./imgs/activitycode.png)
 
-At least, but very important. Create the setup.py file. 
+At least, but very important. Create the setup.py file.
 
 ![setup](./imgs/setupfile.png)
 
