@@ -6,3 +6,4 @@ Docs for contribute to Sugar Labs- improving educational technology worldwide.
 
 [My first activity](./docs/README.md)
 
+[Run an activity](https://github.com/libialany/sugarlabs-docs/blob/main/activity/OrangeJAMath.activity/README.md)
