@@ -1,0 +1,8 @@
+[Activity]
+name = OrangeJAMath
+activity_version = 1
+bundle_id = xyz.OrangeJAMath
+icon = OrangeJAMath
+exec = sugar-activity3 OrangeJAMath.OrangeJAMath
+show_launcher = yes
+repository = https://github.com/libialany/sugarlabs-docs.git
