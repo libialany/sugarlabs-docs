@@ -1,0 +1,46 @@
+{
+    "app-id": "org.sugarlabs.OrangeJAMathActivity",
+    "base": "org.sugarlabs.BaseApp",
+    "base-version": "23.06",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "44",
+    "sdk": "org.gnome.Sdk",
+    "separate-locales": false,
+    "command": "sugarapp",
+    "finish-args": [
+        "--socket=x11",
+        "--socket=pulseaudio",
+        "--share=ipc",
+        "--device=dri",
+        "--env=SUGAR_BUNDLE_ID=org.sugarlabs.OrangeJAMath",
+        "--env=SUGAR_BUNDLE_PATH=/app/share/sugar/activities/OrangeJAMath.activity/"
+    ],
+    "modules": [
+        {
+            "name": "OrangeJAMath",
+            "buildsystem": "simple",
+            "build-commands": [
+                "python3 setup.py install --prefix=/app --skip-install-desktop-file --skip-install-mime"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/libialany/OrangeJAMath.git",
+                    "tag": "v1.0.6",
+                    "commit": "ecc6da0f26aa27914da8e0ababce9e449c35d750",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    }
+                }
+            ],
+            "post-install": [
+                "sugarapp-gen-appdata activity/activity.info appdata",
+                "sugarapp-gen-desktop activity/activity.info desktop",
+                "install -D appdata /app/share/metainfo/org.sugarlabs.OrangeJAMath.appdata.xml",
+                "install -D desktop /app/share/applications/org.sugarlabs.OrangeJAMathActivity.desktop",
+                "install -D activity/OrangeJAMath.svg /app/share/icons/hicolor/scalable/apps/org.sugarlabs.OrangeJAMathActivity.svg"
+            ]
+        }
+    ]
+}
