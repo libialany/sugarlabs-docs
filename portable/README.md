@@ -29,3 +29,7 @@ how create suggar flatpak [How to port a Sugar application with Sugarapp and pac
 - Review your activity.info to ensure everything is correct in *.data.xml
 
 - setup environment variables: `SUGAR_BUNDLE_ID=org.sugarlabs.OrangeJAMath SUGAR_BUNDLE_PATH=$PWD` *optional*
+
+### Result
+
+![result image](./imgs/result.png)
