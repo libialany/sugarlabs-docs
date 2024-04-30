@@ -12,8 +12,8 @@ flatpak run org.sugarlabs.OrangeJAMath//master
  or 
 
 ```
-flatpak-builder --force-clean build-dir org.flatpak.OrangeJAMath.json
-flatpak-builder --run build-dir org.flatpak.OrangeJAMath.json sugarapp
+flatpak-builder --force-clean build-dir org.sugarlabs.OrangeJAMath.json
+flatpak-builder --run build-dir org.sugarlabs.OrangeJAMath.json sugarapp
 ```
 
 I discovered numerous examples on [Flathub](https://github.com/flathub) when searching for org.sugar.<name-of-activity>.****.
@@ -28,4 +28,4 @@ how create suggar flatpak [How to port a Sugar application with Sugarapp and pac
 
 - Review your activity.info to ensure everything is correct in *.data.xml
 
-- setup environment variables: `SUGAR_BUNDLE_ID=org.sugarlabs.OrangeJAMath SUGAR_BUNDLE_PATH=$PWD`
+- setup environment variables: `SUGAR_BUNDLE_ID=org.sugarlabs.OrangeJAMath SUGAR_BUNDLE_PATH=$PWD` *optional*
