@@ -79,11 +79,19 @@ The icon's Activity is now visible at the top of the desktop.
 Some links that helped me.
 
 https://github.com/sugarlabs/sugargame
+
 https://github.com/sugarlabs/musicblocks/pull/3873
+
 https://sugar3.readthedocs.io/_/downloads/en/latest/pdf/
+
 https://archive.org/details/MakeYourOwnSugarActivities/page/n37/mode/2up?view=theater
+
 https://wiki.sugarlabs.org/go/Tutorials/Installation/Install_with_liveinst#Type_of_installation
+
 https://github.com/Taiko2k/GTK4PythonTutorial
+
 https://wiki.sugarlabs.org/index.php?title=Platform_Team/Package_Management_System&mobileaction=toggle_view_desktop
+
 https://stackoverflow.com/questions/11301074/what-exactly-are-glib-and-gobject
+
 https://gnome.pages.gitlab.gnome.org/pygobject/guide/api/gobject.html
